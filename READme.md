@@ -31,15 +31,62 @@ The algorithm involves picking random values of `a` and checking if the above co
 To use the Fermat's primality test implementation, follow these steps:
 
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/fermat-primality-test.git
+      ```sh
+      git clone https://github.com/yourusername/fermat-primality-test.git
 
 2. Navigate to the project directory:
-    ```sh
-    cd fermat-primality-test
+   ```sh
+   cd fermat-primality-test
 
 3. Run the primality test script with a number:
-    ```sh
-    python main.py
+   ```sh
+       python main.py
+
+## Examples
+Here are some examples of using the Fermat's primality test:
+
+Checking a Prime Number
+      ```sh
+         python main.py 17
+   
+ 
+## Contributing
+   Contributions are welcome! Please feel free to submit a Pull Request or open an Issue if you have any suggestions or improvements.
+   
+   ## License
+   This project is licensed under the MIT License. See the LICENSE file for details.
+   
+   
+   ### Fermat's Primality Test Script (`fermat_primality_test.py`)
+   Here’s a simple implementation of Fermat's primality test in Python:
+   
+   ```python
+   import math
+   
+   
+   def fun():
+       prime =int(input("Enter the prime number: "))
+       
+   # base value or it can be changed as any prime number below the target value.
+       a = 2
+   
+       fermat = prime - 1
+       fermat = math.pow(a, fermat)
+       # print(fermat)
+   
+       result = fermat % prime
+       if(result == 1):
+           print("The given number", prime, "is a prime number")
+           pass
+       else:
+           print("The given number", prime, "is not a prime number")
+   
+   
+   
+       
+   while True:
+       fun()
+
+
 
 
