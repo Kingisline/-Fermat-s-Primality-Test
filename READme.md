@@ -53,15 +53,17 @@ Checking a Prime Number
 ## Contributing
    Contributions are welcome! Please feel free to submit a Pull Request or open an Issue if you have any suggestions or improvements.
    
-   ## License
+## License
    This project is licensed under the MIT License. See the LICENSE file for details.
    
    
-   ### Fermat's Primality Test Script (`fermat_primality_test.py`)
+### Fermat's Primality Test Script (`fermat_primality_test.py`)
    Here’s a simple implementation of Fermat's primality test in Python:
-   
-   ```python
-   import math
+
+
+
+```python
+      import math
    
    
    def fun():
